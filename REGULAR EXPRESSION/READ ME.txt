@@ -1,0 +1,37 @@
+ 
+Write a regular expression that allows you to select all lines that match the conditions:
+
+1) Consist only of letters.
+2) One and only one of the letters is capitalized.
+
+An example of strings that can be highlighted with an expression:
+
+"Мама","авТо","гриБ",'Яблоко', 'яБлоко', 'ябЛоко', 'яблОко', 'яблоКо', 'яблокО'
+
+An example of lines that should not be highlighted by an expression:
+
+"агент007", '5g', 'b2b', 'B2b', 'B2B' - contains numbers
+"стриж" - only lowercase letters
+"ГТО" - more than one capital letter
+"Три богатыря" - contains a space, only letters are allowed 
+
+------------------------------
+
+Напишите регулярное выражение, которое позволяет выделить все строки отвечающие условиям: 
+
+1)Состоят только из букв.
+2)Одна и только одна из букв является заглавной.
+
+Пример строк которые могут быть выделены выражением:
+
+"Мама","авТо","гриБ",'Яблоко', 'яБлоко', 'ябЛоко', 'яблОко', 'яблоКо', 'яблокО'
+
+Пример строк которые не должны быть выделены выражением:
+
+"агент007", '5g', 'b2b', 'B2b', 'B2B' - содержит цифры
+"стриж" - только строчные буквы
+"ГТО" - более одной заглавной буквы
+"Три богатыря" - содержит пробел, допустимы только буквы
+
+
+
