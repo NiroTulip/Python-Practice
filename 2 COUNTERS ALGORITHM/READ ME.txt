@@ -1,0 +1,11 @@
+Given 2 arrays of integers. Arrays are of arbitrary length and are sorted in ascending order of elements. Element values can be repeated.
+It is necessary to get the intersection of arrays - an array that contains common elements of two given arrays. You must use the "two counters" algorithm. 
+
+------------------------------
+Дано 2 массива целых чисел. Массивы имеют произвольную длину и упорядочены по возрастанию элементов. Значения элементов могут повторяться.
+Необходимо получить пересечение массивов - массив, который содержит общие элементы двух заданных массивов. Необходимо использовать алгоритм "двух указателей".
+
+
+
+
+
