@@ -1,0 +1,11 @@
+﻿The aim of the study is to experimentally determine the computational algorithmic complexity O of finding the intersection of two sets using the built-in operation in the Python language. It is necessary to find the dependence of the operation execution time on the number of elements in the sets. Common elements of two integer sets of the same length are determined. Because sets are implemented in Python based on hash tables, linear computational algorithmic complexity O(N) is expected.
+During the experiment, 8 checks were carried out for sets with a length of 100, 1000, 10000, 25000, 40000, 55000, 70000, 85000, 100000 elements. The result of the experiment confirmed the assumption about the linear computational algorithmic complexity O(N). The graph clearly shows that the obtained data are perfectly approximated by a linear function.
+Sets were generated using a generator of random sequences of a given length, implemented in the Go language. Generator source code can be found here https://github.com/NiroTulip/GoLang-Practice/tree/main/RANDOM%20SEQUENCE%20GENERATOR
+The generated sequences were inserted into the source code of a real Python program. 
+------------------------------
+Целью исследования является эксперименитальное определение вычислительной алгоритмической сложности O нахождения пересечения двух множеств с помощью встроенной операции на языке Питон. Необходимо найти зависимость времени выполнения операции от количества элементов в множествах. Определяются общие элементы двух целочисленных множеств одинаковой длины. Т.к. множества реализованы в языке Питон на базе хеш-таблиц, ожидается линейная вычислительная алгоритмическая сложность O(N).
+В ходе эксперимента было проведено 8 проверок для множеств длиной 100, 1000, 10000, 25000, 40000, 55000, 70000, 85000, 100000 элементов. Результат эксперимента подтвердил предположение о линейной вычислительной алгоритмической сложности O(N). На графике отчетливо видно, что полученные данные прекрсано аппрокимируются линейной функцией.
+Для генерации множеств использовался генератор случайных последовательностей заданной длины, реализованный на языке Go. Исходный код генератора можно найти здесь https://github.com/NiroTulip/GoLang-Practice/tree/main/RANDOM%20SEQUENCE%20GENERATOR
+Сгенерированные последовательности вставлялись в исходный код настоящей программы на языке Питон.
+
+
