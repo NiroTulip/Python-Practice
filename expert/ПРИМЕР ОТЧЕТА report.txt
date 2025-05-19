@@ -1,0 +1,68 @@
+ПУТЬ:
+1, 2, 5, 6, 9, 12, 13, 14, 15, 11, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 114, 115, 125, 126
+
+ПРАВИЛО:
+ЕСЛИ IS_RECOMMENDED = True И 18≤AGE≤80 И (IS_EDUCATED = True И DEGREE_TYPE = Бакалавр) ≡ DEGREE = 2 И (ART_READING = 5 И ACTOR_ETUDE = 4 И CHOREOGRAPHY = 3 И VOCAL = 5) ≡ SUMM_EXAM = 17 И (GESTURE_SKILL = 4 И EMOTION_SKILL = 3 И TEXT_SKILL = 5 И IMPROV_SKILL = 4) ≡ SUMM_SKILL = 16 И (IS_GOOD_KISS = True И IS_GOOD_DRUNK = True И IS_GOOD_FAINT = True И IS_GOOD_SLAP = False) ≡ SUMM_DOP_SKILL = 15 И (IS_BEAUTY_SHAPE = True И IS_BEAUTY_SMILE = True И (HEIGHT = 173) ≡ IS_TALL = True И BEAUTY_SCALE = 5) ≡ SUMM_BEAUTY = 24 И (IS_PRACTICE_SPORT = True И IS_SHAPED_MUSCLES = False И IS_MARTIAL_ARTS = False И IS_PERFORM_STUNTS = False) ≡ SUMM_PHYSICAL = 5 И (KNOW_FOREIGN_LANG = True И IQ_LEVEL = 123 ≡ IS_SMART = True И GOOD_MEMORY = True И HIGH_EMOTIONAL_INTELLIGENCE = False) ≡ SUMM_INTELLECT = 15 И (HANDLE_AUTO = True И HANDLE_MOTO = False И HANDLE_HYDRO = False И HANDLE_BIKE = True) ≡ SUMM_TECH = 10 И (NOT_SCARY_BLOOD = True И NOT_SCARY_CORPSES = True И NOT_SCARY_REMAINS = False И NOT_SCARY_INSECTS = True) ≡ SUMM_MENTAL_STRENGTH = 15 И (HANDLE_GUN = False И HANDLE_MACHINEGUN = False И HANDLE_GRENADER = False И HANDLE_FLAMER = True) ≡ SUMM_GUNS = 5 И (IS_MOVIE_EXP = True И IS_MOVIE_PROF = Профессиональный И IS_FULL_MOVIE = Полнометражный) ≡ EXPERIENCE = 7 И (IS_COMMERCIAL_MOVIE = Коммерческий И IS_COMMERCIAL_SUCCESS = True) ≡ SUCCESS = 10 И 4≤IMDB_RATING≤7 И SECOND_STAR_PART = True И [DEGREE = 3 & SUMM_EXAM >= 15 & SUMM_SKILL >= 15] = False И [SUMM_BEAUTY >= 22] = True, ТО DECISION = ПРЕДЛОЖЕНИЕ; RESULT = Роль симпатяжки 2 плана в топовом фильме
+
+ЗНАЧЕНИЯ ПЕРЕМЕННЫХ:
+IS_RECOMMENDED = True
+AGE = 39
+IS_EDUCATED = True
+DEGREE_TYPE = Бакалавр
+DEGREE = 2 (вычисляемая переменная)
+ART_READING = 5
+ACTOR_ETUDE = 4
+CHOREOGRAPHY = 3
+VOCAL = 5
+SUMM_EXAM = 17 (вычисляемая переменная)
+GESTURE_SKILL = 4
+EMOTION_SKILL = 3
+TEXT_SKILL = 5
+IMPROV_SKILL = 4
+SUMM_SKILL = 16 (вычисляемая переменная)
+IS_GOOD_KISS = True
+IS_GOOD_DRUNK = True
+IS_GOOD_FAINT = True
+IS_GOOD_SLAP = False
+SUMM_DOP_SKILL = 15 (вычисляемая переменная)
+IS_BEAUTY_SHAPE = True
+IS_BEAUTY_SMILE = True
+HEIGHT = 173
+IS_TALL = True (вычисляемая переменная)
+BEAUTY_SCALE = 5
+SUMM_BEAUTY = 24 (вычисляемая переменная)
+IS_PRACTICE_SPORT = True
+IS_SHAPED_MUSCLES = False
+IS_MARTIAL_ARTS = False
+IS_PERFORM_STUNTS = False
+SUMM_PHYSICAL = 5 (вычисляемая переменная)
+KNOW_FOREIGN_LANG = True
+IQ_LEVEL = 123
+IS_SMART = True (вычисляемая переменная)
+GOOD_MEMORY = True
+HIGH_EMOTIONAL_INTELLIGENCE = False
+SUMM_INTELLECT = 15 (вычисляемая переменная)
+HANDLE_AUTO = True
+HANDLE_MOTO = False
+HANDLE_HYDRO = False
+HANDLE_BIKE = True
+SUMM_TECH = 10 (вычисляемая переменная)
+NOT_SCARY_BLOOD = True
+NOT_SCARY_CORPSES = True
+NOT_SCARY_REMAINS = False
+NOT_SCARY_INSECTS = True
+SUMM_MENTAL_STRENGTH = 15 (вычисляемая переменная)
+HANDLE_GUN = False
+HANDLE_MACHINEGUN = False
+HANDLE_GRENADER = False
+HANDLE_FLAMER = True
+SUMM_GUNS = 5 (вычисляемая переменная)
+IS_MOVIE_EXP = True
+IS_MOVIE_PROF = Профессиональный
+IS_FULL_MOVIE = Полнометражный
+EXPERIENCE = 7 (вычисляемая переменная)
+IS_COMMERCIAL_MOVIE = Коммерческий
+IS_COMMERCIAL_SUCCESS = True
+SUCCESS = 10 (вычисляемая переменная)
+IMDB_RATING = 7
+SECOND_STAR_PART = True
